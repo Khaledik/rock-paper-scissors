@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.default-shadow {
+    -webkit-box-shadow: inset 0px 23px 0px 0px rgba(0,0,0,0.15); 
+    box-shadow: 0px 9px 0px 0px #dbdbdb, inset 0px 8px 0px 0px rgba(0,0,0,0.10);
+    z-index: 30;
+}
+
+.paper-shadow {
+    -webkit-box-shadow: inset 0px 23px 0px 0px rgba(0,0,0,0.15); 
+    box-shadow: 0px 9px 0px 0px #1d4ed8, inset 0px 8px 0px 0px rgba(0,0,0,0.10);
+    z-index: 30;
+}
+
+
+.scissors-shadow {
+    -webkit-box-shadow: inset 0px 23px 0px 0px rgba(0,0,0,0.15); 
+    box-shadow: 0px 9px 0px 0px #f59e0b, inset 0px 8px 0px 0px rgba(0,0,0,0.10);
+    z-index: 30;
+}
+
+.rock-shadow {
+    -webkit-box-shadow: inset 0px 23px 0px 0px rgba(0,0,0,0.15); 
+    box-shadow: 0px 9px 0px 0px #e11d48, inset 0px 8px 0px 0px rgba(0,0,0,0.10);
+    z-index: 30;
+}
+
+
+
+dialog {
+    animation: slideup 500ms 0s ease-in-out ;
+}
+
+@keyframes slideup {
+    0% {
+        top: 150%
+    }
+
+    100% {
+        top: 33,33%;
+    }
+}
